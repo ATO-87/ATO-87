@@ -221,6 +221,10 @@ a:link {
     color: black;
 }
 
+a:visited {
+color: black;
+}
+
 .contactbtn:hover {
 background-image: none;
 background-color:rgb(247, 227, 162);
