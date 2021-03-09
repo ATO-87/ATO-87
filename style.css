@@ -219,10 +219,12 @@ margin-bottom: 100px;
 a:link {
     text-decoration: none;
     color: black;
+    font-weight: 900;
 }
 
 a:visited {
 color: black;
+font-weight: 900;
 }
 
 .contactbtn:hover {
