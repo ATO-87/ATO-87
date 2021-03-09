@@ -1,0 +1,228 @@
+/* font-family: 'Krona One', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+
+
+/* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box
+} */
+
+
+body {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: 16px;
+/* padding: 20px; */
+line-height: 2;
+color: #000;
+margin: 0;
+padding: 0;
+
+}
+
+.header {
+    background-image: url(images/beach.png);
+    background-position: top;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+
+
+}
+
+
+
+.intro {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+font-family: 'Krona One', sans-serif;
+text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;   
+}
+
+h3{
+    margin:0;
+}
+
+h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.name {
+    display: block;
+    font-size: 60px;
+    letter-spacing: .20em;
+    
+}
+
+.jobtitle {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: .20em;
+}
+
+
+.profile{
+    text-align: center;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 80px;
+
+}
+
+
+
+.skillpic {   
+height: 250px;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 50%;
+
+}
+
+ul {
+list-style-type: none;
+margin-bottom: 10px;
+
+}
+
+
+.skill-row {
+position: relative;
+margin: auto;
+text-align: left;
+width: 900px;
+padding-bottom: 50px;
+margin-bottom: 50px;
+
+} 
+  
+.skill-row:nth-of-type(odd) img{
+  float: left;
+  margin-right: 40px;
+}
+
+.skill-row:nth-of-type(even) img{
+  float: right;
+  margin-left: 40px;
+}
+
+#consultant {
+margin-top: 60px;
+margin-bottom: 45px;
+}
+
+
+#banker {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#education {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    float: right;
+
+}
+
+.edu {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.duration {
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+    
+}
+
+.durationOne{
+    margin-bottom: 15px;
+}
+
+hr {
+    border: dotted rgb(250, 179, 27) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px, auto;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+
+.contact-me {
+margin: 20px 20px;
+text-align: center;
+width: 500px;
+margin: auto;
+margin-bottom: 100px;
+}
+
+
+.bottom-container {
+    background-color: rgb(250, 179, 27);
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 50px;
+    padding: 15px;
+}
+
+.logo-bottom {
+    width: 125px;
+    display: block;
+    margin: auto;
+    padding: 0;
+   transform: translate(0, 50px);
+}
+
+.contactbtn  {
+    background:rgb(250, 179, 27);
+    background-image: linear-gradient(to bottom,rgb(252, 174, 6),rgb(248, 206, 114));
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 10px 15px 10px;
+    border-radius: 5%;
+    border: none;
+    text-decoration: none;
+    margin-top: 50px;
+   
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.contactbtn:hover {
+background-image: none;
+background-color:rgb(247, 227, 162);
+transition: background-color .2s;
+}
